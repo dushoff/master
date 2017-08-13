@@ -9,7 +9,7 @@ target: $(target)
 
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
-# include $(ms)/perl.def
+include $(ms)/repos.def
 
 ##################################################################
 
@@ -17,10 +17,16 @@ include sub.mk
 
 ## Nothing here except repos (mostly repos full of repos)
 
+# dirs = Bio1M
+dfiles: $(dirs:%=%/Makefile)
+Sources += $(dirs)
+
 ######################################################################
 
 -include $(ms)/git.mk
--include $(ms)/visual.mk
+-include $(ms)/modules.mk
+
+# -include $(ms)/visual.mk
 
 # -include $(ms)/wrapR.mk
 # -include $(ms)/oldlatex.mk
