@@ -17,7 +17,7 @@ include $(ms)/repos.def
 
 ## Nothing here except repos (mostly repos full of repos)
 
-# dirs = Bio1M
+dirs = 1M
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
 
