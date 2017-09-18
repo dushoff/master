@@ -6,6 +6,6 @@ Lots of confusion in my brain about:
 
 * debugging and restarting submodules. Git seems to keep submodule info in:
 	* the index
-	* .gitmodules (the key indexed file, maybe that's all there is to the index, but don't count on it)
+		* .gitmodules (the key indexed file, should be nested)
 	* .git/config
 	* A directory called .git/modules
