@@ -17,7 +17,7 @@ include sub.mk
 
 ## Nothing here except repos (mostly repos full of repos)
 
-dirs = 1M
+dirs = 1M academic
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
 
