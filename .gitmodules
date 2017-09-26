@@ -4,3 +4,6 @@
 [submodule "1M"]
 	path = 1M
 	url = https://github.com/Bio1M/1M.git
+[submodule "academic"]
+	path = academic
+	url = https://github.com/dushoff/academic.git
