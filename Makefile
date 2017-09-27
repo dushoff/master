@@ -20,6 +20,7 @@ include sub.mk
 dirs = 1M academic
 dfiles: $(dirs:%=%/Makefile)
 Sources += $(dirs)
+mdirs += $(dirs)
 
 ######################################################################
 
