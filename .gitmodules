@@ -7,3 +7,6 @@
 [submodule "academic"]
 	path = academic
 	url = https://github.com/dushoff/academic.git
+[submodule "research"]
+	path = research
+	url = https://github.com/dushoff/research.git

@@ -17,10 +17,17 @@ include sub.mk
 
 ## Nothing here except repos (mostly repos full of repos)
 
-dirs = 1M academic
+## Course super-directories
+mdirs += 1M 
+
+## Research stuff
+mdirs += academic research
+dushoff_github += research
+
+dirs += $(mdirs)
 dfiles: $(dirs:%=%/Makefile)
+
 Sources += $(dirs)
-mdirs += $(dirs)
 
 ######################################################################
 
