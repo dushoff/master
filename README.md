@@ -8,15 +8,8 @@ Structure
 [1M](1M/)
 
 academic/
-commit.time
-LICENSE.md
-Makefile
-make.log
 makestuff/
-README.md
 research/
-sub.mk
-target.mk
 
 Pending
 =======
