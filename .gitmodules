@@ -10,3 +10,6 @@
 [submodule "research"]
 	path = research
 	url = https://github.com/dushoff/research.git
+[submodule "3SS"]
+	path = 3SS
+	url = https://github.com/Bio3SS/3SS.git
