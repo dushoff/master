@@ -13,3 +13,6 @@
 [submodule "3SS"]
 	path = 3SS
 	url = https://github.com/Bio3SS/3SS.git
+[submodule "org"]
+	path = org
+	url = https://github.com/dushoff/org.git
