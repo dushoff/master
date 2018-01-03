@@ -16,6 +16,3 @@
 [submodule "org"]
 	path = org
 	url = https://github.com/dushoff/org.git
-[submodule "Planning"]
-	path = Planning
-	url = https://github.com/dushoff/Planning.git
