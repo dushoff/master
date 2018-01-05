@@ -1,4 +1,20 @@
+This was all craziness! I realized right when I finished consolidating that there is too much replication in the .git directories, and things are going to get too big, pretty fast.
+
+master is already 1G.
+
+I should abandon this soon.
+
+The right model is:
+
+* submodules starting below where we are making products
+* clone directories and updates above that
+
+Try to focus for now 2018 Jan 05 (Fri) on getting actual work done, and come back to the craziness later.
+
+----------------------------------------------------------------------
+
 The top-level meta-repo for user `dushoff`
+
 
 Structure
 =========
