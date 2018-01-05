@@ -1,21 +1,27 @@
 [submodule "makestuff"]
 	path = makestuff
 	url = https://github.com/dushoff/makestuff.git
+	branch = master
 [submodule "1M"]
 	path = 1M
 	url = https://github.com/Bio1M/1M.git
+	branch = master
 [submodule "academic"]
 	path = academic
 	url = https://github.com/dushoff/academic.git
+	branch = master
 [submodule "research"]
 	path = research
 	url = https://github.com/dushoff/research.git
+	branch = master
 [submodule "3SS"]
 	path = 3SS
 	url = https://github.com/Bio3SS/3SS.git
+	branch = master
 [submodule "org"]
 	path = org
 	url = https://github.com/dushoff/org.git
+	branch = master
 [submodule "Workshops"]
 	path = Workshops
 	url = https://github.com/dushoff/Workshops.git
