@@ -16,3 +16,7 @@
 [submodule "org"]
 	path = org
 	url = https://github.com/dushoff/org.git
+[submodule "Workshops"]
+	path = Workshops
+	url = https://github.com/dushoff/Workshops.git
+	branch = master

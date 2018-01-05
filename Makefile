@@ -20,9 +20,9 @@ Sources += localrepos.def
 
 ## Nothing here except repos (mostly repos full of repos)
 
-
 ## Course super-directories
-mdirs += 1M 3SS
+mdirs += 1M 3SS Workshops
+## stat744 QMEE??
 
 ## Research stuff
 mdirs += academic research
